@@ -1,0 +1,85 @@
+{
+  "took": 4,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  "hits": {
+    "total": {
+      "value": 3,
+      "relation": "eq"
+    },
+    "max_score": 0.9423279,
+    "hits": [
+      {
+        "_index": "employees",
+        "_type": "_doc",
+        "_id": "7iY2wWoBJtOD0W4wbaem",
+        "_score": 0.9423279,
+        "_source": {
+          "FirstName": "ELVA",
+          "LastName": "RECHKEMMER",
+          "Designation": "CEO",
+          "Salary": {
+            "value": 154000
+          },
+          "DateOfJoining": "1993-01-11",
+          "Address": "8417 Blue Spring St. Port Orange, FL 32127",
+          "Gender": "Female",
+          "Age": {
+            "value": 62
+          },
+          "MaritalStatus": "Unmarried",
+          "Interests": "Body Building,Illusion,Protesting,Taxidermy,TV watching,Cartooning,Skateboarding"
+        }
+      },
+      {
+        "_index": "employees",
+        "_type": "_doc",
+        "_id": "7yY2wWoBJtOD0W4wjKcg",
+        "_score": 0.9423279,
+        "_source": {
+          "FirstName": "JENNEFER",
+          "LastName": "WENIG",
+          "Designation": "CEO",
+          "Salary": {
+            "value": 110000
+          },
+          "DateOfJoining": "2013-02-07",
+          "Address": "16 Manor Station Court Huntsville, AL 35803",
+          "Gender": "Female",
+          "Age": {
+            "value": 45
+          },
+          "MaritalStatus": "Unmarried",
+          "Interests": "String Figures,Working on cars,Button Collecting,Surf Fishing"
+        }
+      },
+      {
+        "_index": "employees",
+        "_type": "_doc",
+        "_id": "9CY8wWoBJtOD0W4wfqeL",
+        "_score": 0.9423279,
+        "_source": {
+          "FirstName": "LAUREN",
+          "LastName": "RIDENS",
+          "Designation": "CEO",
+          "Salary": {
+            "value": 123000
+          },
+          "DateOfJoining": "2010-01-14",
+          "Address": "287 SE. Schoolhouse Street Clifton, NJ 07011",
+          "Gender": "Female",
+          "Age": {
+            "value": 63
+          },
+          "MaritalStatus": "Married",
+          "Interests": "Saltwater Aquariums"
+        }
+      }
+    ]
+  }
+}

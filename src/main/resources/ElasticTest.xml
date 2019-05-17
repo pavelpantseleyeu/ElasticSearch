@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ApiSuite" verbose="1" parallel="tests" thread-count="1">
-    <test name="ApiTest">
+<suite name="ElasticSuite" verbose="1" parallel="tests" thread-count="1">
+    <test name="ElasticTest">
         <classes>
             <class name="org.elastic.task.tests.ElasticTest"/>
         </classes>
     </test>
     <listeners>
-        <listener class-name="org.elastic.task.listener.SuiteListener"/>
         <listener class-name="org.elastic.task.listener.TestListener"/>
+        <listener class-name="org.elastic.task.listener.SuiteListener"/>
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener" />
     </listeners>
 </suite>
